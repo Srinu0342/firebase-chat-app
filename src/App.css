@@ -1,0 +1,83 @@
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:500px;
+  border: 1px dashed;
+  border-radius: 3px;
+}
+.message{
+  display: flex;
+  width: fit-content;
+  margin: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 1px dashed;
+  border-radius: 3px;
+  flex-direction: column;
+}
+.sent{
+  margin-left: 20%;
+  border-color: red;
+  align-self: flex-end;
+}
+.received{
+  margin-right: 20%;
+  border-color: blue;
+  align-self: flex-start;
+}
+
+.contact{
+  margin: 0%;
+  padding: 0%;
+  font-size: 10px;
+}
+.contact.sent{
+  align-self: flex-end;
+  width: fit-content;
+}
+.contact.received{
+  align-self: flex-start;
+  width: fit-content;
+}
+.text{
+  margin: 0%;
+  padding: 2px;
+  font-size: 15px;
+}
+
+.btn{
+  border-radius: 7px;
+  border-color: darkslateblue;
+  background-color: rgba(0, 80, 40, .2);
+  color: darkslateblue;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.signout{
+  align-self: flex-start;
+}
+.send{
+  align-self: flex-end;
+}
+
+.input{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.form{
+  align-self: flex-end;
+  width:90%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
